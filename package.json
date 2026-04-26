@@ -1,0 +1,32 @@
+{
+  "name": "luxury-gifts",
+  "version": "1.0.0",
+  "description": "Marketing site for 144 Academy: California CCW certification, renewals, and advanced firearms training out of Redding, Shasta County.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^16.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.4",
+    "@types/node": "25.6.0",
+    "@types/react": "19.2.14",
+    "postcss": "^8.5.11",
+    "tailwindcss": "^4.2.4",
+    "typescript": "6.0.3"
+  }
+}
