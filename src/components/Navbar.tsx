@@ -35,25 +35,25 @@ export default function Navbar() {
   }, [open]);
 
   return (
-    <header className="sticky top-0 z-50 px-2 pt-2.5 sm:px-6 sm:pt-4">
+    <header className="sticky top-0 z-50 px-3 pt-3 sm:px-6 sm:pt-4">
       <nav
-        className={`mx-auto flex max-w-6xl items-center justify-between rounded-full px-3 py-2 sm:px-6 sm:py-3 transition-all duration-300 ${
+        className={`mx-auto flex max-w-6xl items-center justify-between rounded-full px-4 py-2.5 sm:px-6 sm:py-3 transition-all duration-300 ${
           scrolled ? "glass" : "bg-white/55 backdrop-blur-md border border-white/50"
         }`}
         aria-label="Primary"
       >
         <Link
           href="#top"
-          className="flex items-center gap-2 group"
+          className="flex items-center gap-2.5 group"
           aria-label={`${site.brand} home`}
         >
-          <span className="relative flex h-8 w-8 items-center justify-center overflow-hidden rounded-full bg-white/80 ring-1 ring-gold-400/40 sm:h-9 sm:w-9">
+          <span className="relative flex h-9 w-9 items-center justify-center overflow-hidden rounded-full bg-white/80 ring-1 ring-gold-400/40">
             <Image
               src="/images/template-placeholder.svg"
               alt=""
               width={36}
               height={36}
-              className="h-6 w-6 object-contain sm:h-7 sm:w-7"
+              className="h-7 w-7 object-contain"
               priority
             />
           </span>
@@ -79,11 +79,11 @@ export default function Navbar() {
           ))}
         </div>
 
-        <div className="flex items-center gap-1.5 sm:gap-2">
+        <div className="flex items-center gap-2">
           <button
             type="button"
             onClick={toggle}
-            className="inline-flex h-9 min-w-9 items-center justify-center rounded-full border border-gold-400/40 bg-white/70 px-2.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-ink-800 transition-colors hover:border-gold-400 hover:bg-white cursor-pointer sm:h-10 sm:min-w-10 sm:px-3 sm:text-[11px]"
+            className="inline-flex h-10 min-w-10 items-center justify-center rounded-full border border-gold-400/40 bg-white/70 px-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-ink-800 transition-colors hover:border-gold-400 hover:bg-white cursor-pointer"
             aria-label={`Switch to ${t.nav.langSwitch}`}
           >
             <span>{lang === "en" ? "ES" : "EN"}</span>
@@ -93,7 +93,7 @@ export default function Navbar() {
             href={site.whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-9 items-center justify-center gap-1.5 rounded-full bg-rose-500 px-2.5 text-[0.68rem] font-medium text-white transition-colors hover:bg-rose-400 sm:h-auto sm:gap-2 sm:px-4 sm:py-2.5 sm:text-[0.78rem]"
+            className="inline-flex h-10 items-center justify-center gap-1.5 rounded-full bg-rose-500 px-2.5 text-[0.68rem] font-medium text-white transition-colors hover:bg-rose-400 sm:gap-2 sm:px-4 sm:py-2.5 sm:text-[0.78rem]"
           >
             <Icon name="whatsapp" size={15} />
             <span className="hidden min-[430px]:inline">{t.nav.orderWhatsApp}</span>
@@ -103,7 +103,7 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
-            className="md:hidden inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/80 bg-white/70 text-ink-800 cursor-pointer sm:h-10 sm:w-10"
+            className="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/70 border border-white/80 text-ink-800 cursor-pointer"
             aria-expanded={open}
             aria-controls="mobile-nav"
             aria-label={open ? t.nav.menuClose : t.nav.menuOpen}
