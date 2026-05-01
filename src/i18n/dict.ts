@@ -21,7 +21,7 @@ export const dict = {
       callPrefix: "Call",
     },
     hero: {
-      eyebrow: "Your Market · Studio Placeholder",
+      eyebrow: "Boutique Floral Template",
       titleA: "Hand-crafted florals",
       titleB: "made to be remembered.",
       body:
@@ -210,7 +210,7 @@ export const dict = {
       callPrefix: "Llama al",
     },
     hero: {
-      eyebrow: "Tu mercado · Estudio de muestra",
+      eyebrow: "Plantilla floral boutique",
       titleA: "Florales hechos a mano",
       titleB: "para ser recordados.",
       body:

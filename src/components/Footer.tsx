@@ -28,7 +28,6 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="btn-primary self-center lg:self-center"
             >
-              <Icon name="sparkle" size={16} />
               Reach Out
             </a>
           </div>

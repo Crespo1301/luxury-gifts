@@ -83,10 +83,9 @@ export default function Navbar() {
           <button
             type="button"
             onClick={toggle}
-            className="hidden sm:inline-flex items-center gap-1.5 rounded-full bg-white/70 border border-gold-400/40 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-[0.18em] text-ink-800 hover:bg-white hover:border-gold-400 transition-colors cursor-pointer"
+            className="inline-flex h-10 min-w-10 items-center justify-center rounded-full border border-gold-400/40 bg-white/70 px-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-ink-800 transition-colors hover:border-gold-400 hover:bg-white cursor-pointer"
             aria-label={`Switch to ${t.nav.langSwitch}`}
           >
-            <Icon name="globe" size={13} className="text-gold-600" />
             <span>{lang === "en" ? "ES" : "EN"}</span>
           </button>
 
@@ -94,10 +93,10 @@ export default function Navbar() {
             href={site.whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex btn-primary px-3.5 py-2.5 text-[0.72rem] sm:px-4 sm:text-[0.78rem]"
+            className="inline-flex btn-primary px-3 py-2.5 text-[0.72rem] sm:px-4 sm:text-[0.78rem]"
           >
             <Icon name="whatsapp" size={15} />
-            <span className="hidden sm:inline">{t.nav.orderWhatsApp}</span>
+            <span className="hidden min-[430px]:inline">{t.nav.orderWhatsApp}</span>
             <span className="sm:hidden">WhatsApp</span>
           </a>
 
@@ -141,9 +140,8 @@ export default function Navbar() {
             onClick={() => {
               toggle();
             }}
-            className="mt-6 inline-flex self-center items-center gap-2 rounded-full border border-gold-400/40 bg-white/80 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-ink-800 cursor-pointer"
+            className="mt-6 inline-flex self-center items-center rounded-full border border-gold-400/40 bg-white/80 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-ink-800 cursor-pointer"
           >
-            <Icon name="globe" size={14} className="text-gold-600" />
             {t.nav.langSwitch}
           </button>
 

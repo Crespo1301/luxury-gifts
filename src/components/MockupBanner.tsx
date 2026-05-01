@@ -19,8 +19,7 @@ export default function MockupBanner() {
     >
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-4 py-2 text-center sm:flex-row sm:items-center sm:gap-4 sm:px-6 sm:text-left">
         <div className="flex min-w-0 items-center justify-center gap-3 sm:justify-start">
-          <span className="hidden sm:inline-flex items-center gap-1.5 rounded-full bg-white/15 px-2.5 py-1 text-[10px] uppercase tracking-[0.22em] font-semibold text-white border border-white/25">
-            <Icon name="sparkle" size={11} className="text-gold-300" />
+          <span className="hidden sm:inline-flex items-center rounded-full border border-white/25 bg-white/15 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.22em] text-white">
             {m.tag}
           </span>
           <p className="text-[12px] sm:text-[13px] leading-snug">
@@ -34,7 +33,6 @@ export default function MockupBanner() {
           rel="noopener noreferrer"
           className="inline-flex shrink-0 items-center gap-2 rounded-full bg-white px-3.5 py-1.5 text-[12px] font-semibold text-ink-900 transition-colors hover:bg-gold-300 sm:text-[13px] cursor-pointer"
         >
-          <Icon name="sparkle" size={13} />
           Reach Out
         </a>
       </div>

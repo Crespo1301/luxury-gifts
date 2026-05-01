@@ -1,6 +1,5 @@
 "use client";
 
-import { Icon } from "./Icon";
 import { useT } from "@/i18n/LanguageProvider";
 
 export default function Marquee() {
@@ -22,7 +21,7 @@ export default function Marquee() {
               <span className="font-display text-xl sm:text-2xl text-ink-800/80 italic">
                 {label}
               </span>
-              <Icon name="diamond" size={10} className="text-gold-400/80" />
+              <span className="h-px w-8 bg-gold-400/50" />
             </span>
           ))}
         </div>

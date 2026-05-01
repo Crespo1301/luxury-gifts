@@ -21,10 +21,7 @@ export default function Hero() {
 
       <div className="mx-auto max-w-6xl px-5 sm:px-6 grid gap-12 lg:grid-cols-[1.05fr_0.95fr] items-center">
         <div className="text-center lg:text-left" style={{ animation: "fadeUp 1s 0.05s both" }}>
-          <span className="eyebrow">
-            <span className="h-1.5 w-1.5 rounded-full bg-gold-400" />
-            {t.hero.eyebrow}
-          </span>
+          <span className="eyebrow">{t.hero.eyebrow}</span>
           <h1 className="mt-5 font-display text-[2.7rem] leading-[1.02] sm:text-[3.6rem] md:text-[4.4rem] text-ink-900 text-balance">
             {t.hero.titleA}
             <br />

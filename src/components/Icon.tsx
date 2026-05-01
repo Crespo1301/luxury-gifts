@@ -4,7 +4,6 @@ type IconName =
   | "flower"
   | "basket"
   | "ribbon"
-  | "sparkle"
   | "phone"
   | "whatsapp"
   | "instagram"
@@ -15,7 +14,6 @@ type IconName =
   | "close"
   | "pin"
   | "star"
-  | "diamond"
   | "leaf"
   | "globe";
 
@@ -41,11 +39,6 @@ const paths: Record<IconName, React.ReactNode> = {
       <path d="M4 5l-1 4M20 5l1 4" />
       <path d="M9 15l-3 5h4l2-3M15 15l3 5h-4l-2-3" />
       <circle cx="12" cy="9" r="2" />
-    </g>
-  ),
-  sparkle: (
-    <g fill="currentColor">
-      <path d="M12 2.5c.3 4.4 1.6 6.7 5.5 9.5-3.9 2.8-5.2 5.1-5.5 9.5-.3-4.4-1.6-6.7-5.5-9.5 3.9-2.8 5.2-5.1 5.5-9.5z" opacity="0.95" />
     </g>
   ),
   phone: (
@@ -101,11 +94,6 @@ const paths: Record<IconName, React.ReactNode> = {
   star: (
     <g fill="currentColor">
       <path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9L12 2.5z" />
-    </g>
-  ),
-  diamond: (
-    <g fill="currentColor">
-      <path d="M12 3l3 9-3 9-3-9 3-9z" />
     </g>
   ),
   leaf: (
