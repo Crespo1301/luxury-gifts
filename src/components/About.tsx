@@ -41,8 +41,8 @@ export default function About() {
                 style={{ boxShadow: "0 40px 70px -35px rgba(174, 84, 70, 0.4)" }}
               >
                 <Image
-                  src="/images/flower-bouqets/set-1/655677755_17894497131428154_47658270050642268_n.jpg"
-                  alt="Studio arrangement detail"
+                  src="/images/template-placeholder.svg"
+                  alt="Studio placeholder"
                   fill
                   sizes="(max-width: 1024px) 90vw, 22rem"
                   className="object-cover"

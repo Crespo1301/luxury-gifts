@@ -1,27 +1,37 @@
-# Claude Project Instructions
+# CLAUDE.md
 
-This repository uses `/home/cresp3/luxry-gifts` as the main workspace.
+Repo role: mockup or proposal repo for a potential client, not a primary maintained live client surface right now.
 
-## Use These Tools By Default When Relevant
+## Business Context
 
-- `ui-ux-pro-max` for premium UI/UX direction, spacing, typography, and section planning
-- Stitch MCP when a design-to-code or high-end interface exploration would help
-- 21st.dev for inspiration and component-quality benchmarking
-- Gemini image generation for asset ideation and visual mockups
+- Treat this repo as a sales asset and template candidate.
+- Shared workflow rules live in `/home/cresp3/Portfolio/AI-WORKFLOW.md`.
 
+## Claude Role Here
 
+- Use Claude for luxury product positioning, layout direction, copy, and mockup polish.
+- Let Codex handle implementation and template reuse if this repo becomes active work.
 
-## Working Rules
+## Working Notes
 
-- Preserve responsiveness and production functionality
-- Prefer working in the live repo with `npm run dev` running in the background
-- Avoid switching work back to `Portfolio-codex-hero`
+- This repo should stay in the mockup lane unless explicitly promoted.
+- Keep the design premium and gift-focused rather than treating it like a generic commerce build.
 
-## Helpful Commands
+## Useful Commands
 
 ```bash
-npm run check:node
 npm run dev
+npm run build
+npm run lint
+npm run start
+npm run stitch:init
 npm run stitch:doctor
 npm run stitch:proxy
 ```
+
+## Shared AI Tooling
+
+- Follow `AI-WORKFLOW.md` for the shared CSolutions AI stack.
+- Use repo-local `.claude/skills/` for `code-review-graph`, `Impeccable`, and `mattpocock/skills` workflows.
+- Use `.mcp.json` with `code-review-graph` after running `code-review-graph build` so exploration and reviews stay token-efficient.
+- Use OpenSpec for larger changes that benefit from proposal, spec, and task artifacts.

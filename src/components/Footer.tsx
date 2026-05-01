@@ -10,6 +10,30 @@ export default function Footer() {
   return (
     <footer className="relative mt-20 border-t border-rose-200/50 bg-gradient-to-b from-transparent to-blush-100/60">
       <div className="mx-auto max-w-6xl px-6 py-14">
+        <div className="mb-10 rounded-[28px] border border-gold-400/30 bg-white/70 px-6 py-8 sm:px-8 sm:py-10">
+          <p className="text-[10px] uppercase tracking-[0.28em] text-gold-600">CSolutions Template</p>
+          <div className="mt-4 flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
+            <div className="max-w-2xl">
+              <h3 className="font-display text-3xl text-ink-900">
+                This design and others are available at carloscrespo.info.
+              </h3>
+              <p className="mt-3 text-sm text-ink-700 leading-relaxed">
+                If this style fits your business, reach out and get a custom version built around your brand,
+                products, and service area.
+              </p>
+            </div>
+            <a
+              href="https://carloscrespo.info"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary self-start lg:self-center"
+            >
+              <Icon name="sparkle" size={16} />
+              Reach Out
+            </a>
+          </div>
+        </div>
+
         <div className="grid gap-10 md:grid-cols-3">
           <div>
             <div className="font-display text-2xl text-ink-900">{site.brand}</div>

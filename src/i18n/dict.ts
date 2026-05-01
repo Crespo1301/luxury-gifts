@@ -17,11 +17,11 @@ export const dict = {
       tag: "Preview Mockup",
       message: "This is a CSolutions mockup, not a finished site.",
       cta: "Let's launch yours.",
-      cell: "425-591-5136",
+      cell: "(000) 000-0000",
       callPrefix: "Call",
     },
     hero: {
-      eyebrow: "Boston · Studio in Revere",
+      eyebrow: "Your Market · Studio Placeholder",
       titleA: "Hand-crafted florals",
       titleB: "made to be remembered.",
       body:
@@ -31,11 +31,11 @@ export const dict = {
       cardLabel: "Signature",
       cardName: "Heart Box, Large",
       ratingStrong: "Loved by clients",
-      ratingSub: "across Boston",
+      ratingSub: "across your service area",
     },
     trust: [
       { stat: "500+", label: "Arrangements delivered" },
-      { stat: "Boston", label: "Local florist & studio" },
+      { stat: "Local", label: "Service area placeholder" },
       { stat: "100%", label: "Hand-built to order" },
     ],
     marquee: [
@@ -44,8 +44,8 @@ export const dict = {
       "Curated gift boxes",
       "Breakfast surprises",
       "Event styling",
-      "Same-day pickup in Revere",
-      "Delivery across Boston",
+      "Same-day pickup option",
+      "Delivery placeholder",
       "Personalized cards",
     ],
     categories: {
@@ -78,7 +78,7 @@ export const dict = {
         Basket: "Basket",
       },
       orderMessage: (name: string, price: number) =>
-        `Hi Camila, I'd love to order the ${name} ($${price}).`,
+        `Hi, I'd love to order the ${name} ($${price}).`,
     },
     products: {
       "heart-box-large": {
@@ -129,9 +129,9 @@ export const dict = {
       cta: "Start your order",
       steps: [
         { step: "01", title: "Choose your favorites", body: "Browse the catalog and pick the arrangements that feel right for the moment." },
-        { step: "02", title: "Share the details", body: "Send the recipient's name, address, and date. Or pick up directly in Revere, MA." },
+        { step: "02", title: "Share the details", body: "Send the recipient's name, address, and date. Or use this section for pickup instructions." },
         { step: "03", title: "Confirm with payment", body: "Pay through Cash App, Venmo, or Zelle. Your order is reserved the moment payment lands." },
-        { step: "04", title: "Hand-delivered", body: "We deliver across Boston and surrounding areas, dressed and ready to make an impression." },
+        { step: "04", title: "Hand-delivered", body: "Use this step for delivery terms, setup details, or presentation notes." },
       ],
     },
     about: {
@@ -139,12 +139,12 @@ export const dict = {
       titleA: "A boutique studio with a single rule:",
       titleB: "a perfect detail.",
       body1:
-        "Luxury Gifts Boston is a small, hands-on floral and gifting studio based in Revere, MA. Every arrangement is built personally by founder Maria Camila Ríos Ramírez and a tight, trusted team.",
+        "This template is for a boutique floral and gifting studio. Replace this copy with the founder story, product style, and the market you actually serve.",
       body2:
         "We work with fresh stems, preserved roses, gourmet add-ons, and styled presentation that feels considered from the box to the ribbon. The result is something worth photographing before it's ever opened.",
       tags: [
         "Same-day pickup",
-        "Boston-wide delivery",
+        "Delivery zone placeholder",
         "Custom requests",
         "Personalized cards",
         "Event installations",
@@ -152,17 +152,17 @@ export const dict = {
       ],
       studioTag: "Studio",
       servingPrefix: "Serving",
-      servingArea: "Boston and surrounding areas",
-      studioCity: "Revere, MA",
+      servingArea: "your service area",
+      studioCity: "Your City, State",
     },
     catalog: {
       eyebrow: "Featured catalog",
       titleA: "Browse the complete",
-      titleB: "Valentine's collection.",
+      titleB: "signature collection.",
       body:
         "Thirteen pages of signature pieces, eternal roses, breakfast experiences, and curated boxes, with pricing and details for every option.",
       ctaPrimary: "Open the catalog",
-      ctaSecondary: "Ask Camila",
+      ctaSecondary: "Ask about availability",
     },
     contact: {
       eyebrow: "Place an order",
@@ -174,7 +174,7 @@ export const dict = {
       sms: "Text",
       serviceTitle: "Service area",
       serviceBody:
-        "Delivery across Boston and surrounding areas. Pickup available from our studio in Revere, MA.",
+        "Delivery and pickup details go here once the real business is approved.",
       paymentsTitle: "Payment options",
       accountHolder: "Account holder",
       reservedNote: "Orders are reserved upon payment.",
@@ -182,7 +182,7 @@ export const dict = {
     footer: {
       tagline: "A Perfect Detail",
       blurb:
-        "A boutique floral and gifting studio serving Boston and surrounding areas. Pickup available in Revere, MA.",
+        "A boutique floral and gifting studio template ready for local customization.",
       reach: "Reach us",
       payments: "Payments",
       callPrefix: "Call",
@@ -206,11 +206,11 @@ export const dict = {
       tag: "Vista previa",
       message: "Este es un mockup de CSolutions, no es un sitio terminado.",
       cta: "Lancemos el tuyo.",
-      cell: "425-591-5136",
+      cell: "(000) 000-0000",
       callPrefix: "Llama al",
     },
     hero: {
-      eyebrow: "Boston · Estudio en Revere",
+      eyebrow: "Tu mercado · Estudio de muestra",
       titleA: "Florales hechos a mano",
       titleB: "para ser recordados.",
       body:
@@ -220,11 +220,11 @@ export const dict = {
       cardLabel: "Firma",
       cardName: "Caja Corazón, Grande",
       ratingStrong: "Amado por clientes",
-      ratingSub: "en todo Boston",
+      ratingSub: "en tu área de servicio",
     },
     trust: [
       { stat: "500+", label: "Arreglos entregados" },
-      { stat: "Boston", label: "Florería y estudio local" },
+      { stat: "Local", label: "Área de servicio de muestra" },
       { stat: "100%", label: "Hecho a mano por pedido" },
     ],
     marquee: [
@@ -233,8 +233,8 @@ export const dict = {
       "Cajas de regalo curadas",
       "Desayunos sorpresa",
       "Decoración de eventos",
-      "Recogida el mismo día en Revere",
-      "Entrega en todo Boston",
+      "Recogida el mismo día disponible",
+      "Entrega de muestra",
       "Tarjetas personalizadas",
     ],
     categories: {
@@ -267,7 +267,7 @@ export const dict = {
         Basket: "Canasta",
       },
       orderMessage: (name: string, price: number) =>
-        `Hola Camila, me encantaría ordenar el ${name} ($${price}).`,
+        `Hola, me encantaría ordenar el ${name} ($${price}).`,
     },
     products: {
       "heart-box-large": {
@@ -318,9 +318,9 @@ export const dict = {
       cta: "Iniciar tu pedido",
       steps: [
         { step: "01", title: "Escoge tus favoritos", body: "Explora el catálogo y elige los arreglos perfectos para el momento." },
-        { step: "02", title: "Comparte los detalles", body: "Envíanos el nombre, dirección y fecha de entrega. O recoge directamente en Revere, MA." },
+        { step: "02", title: "Comparte los detalles", body: "Envíanos el nombre, dirección y fecha de entrega. O usa este espacio para las instrucciones de recogida." },
         { step: "03", title: "Confirma con el pago", body: "Paga por Cash App, Venmo o Zelle. Tu pedido se reserva en el momento que llega el pago." },
-        { step: "04", title: "Entregado a mano", body: "Entregamos en Boston y alrededores, listo y arreglado para causar impresión." },
+        { step: "04", title: "Entregado a mano", body: "Usa este paso para términos de entrega, montaje o presentación." },
       ],
     },
     about: {
@@ -328,12 +328,12 @@ export const dict = {
       titleA: "Un estudio boutique con una sola regla:",
       titleB: "un detalle perfecto.",
       body1:
-        "Luxury Gifts Boston es un pequeño estudio floral y de regalos basado en Revere, MA. Cada arreglo lo hace personalmente la fundadora Maria Camila Ríos Ramírez junto con un equipo cercano y de confianza.",
+        "Esta plantilla es para un estudio boutique de flores y regalos. Reemplaza este texto con la historia real de la fundadora, el estilo del producto y el mercado que atiendes.",
       body2:
         "Trabajamos con flores frescas, rosas preservadas, complementos gourmet y una presentación cuidada desde la caja hasta el listón. El resultado es algo digno de fotografiar antes de abrirlo.",
       tags: [
         "Recogida el mismo día",
-        "Entrega en Boston",
+        "Área de entrega de muestra",
         "Pedidos personalizados",
         "Tarjetas personalizadas",
         "Instalaciones para eventos",
@@ -341,8 +341,8 @@ export const dict = {
       ],
       studioTag: "Estudio",
       servingPrefix: "Atendemos",
-      servingArea: "Boston y áreas cercanas",
-      studioCity: "Revere, MA",
+      servingArea: "tu área de servicio",
+      studioCity: "Your City, State",
     },
     catalog: {
       eyebrow: "Catálogo destacado",
@@ -351,7 +351,7 @@ export const dict = {
       body:
         "Trece páginas de piezas firma, rosas eternas, experiencias de desayuno y cajas curadas, con precios y detalles para cada opción.",
       ctaPrimary: "Abrir el catálogo",
-      ctaSecondary: "Pregúntale a Camila",
+      ctaSecondary: "Pregunta por disponibilidad",
     },
     contact: {
       eyebrow: "Haz tu pedido",
@@ -363,7 +363,7 @@ export const dict = {
       sms: "Mensaje",
       serviceTitle: "Área de servicio",
       serviceBody:
-        "Entregas en Boston y áreas cercanas. Recogida disponible en nuestro estudio en Revere, MA.",
+        "Los detalles de entrega y recogida van aquí cuando el negocio real esté aprobado.",
       paymentsTitle: "Opciones de pago",
       accountHolder: "Titular de cuenta",
       reservedNote: "Los pedidos se reservan al recibir el pago.",
@@ -371,7 +371,7 @@ export const dict = {
     footer: {
       tagline: "Un Detalle Perfecto",
       blurb:
-        "Estudio boutique de florales y regalos atendiendo Boston y áreas cercanas. Recogida disponible en Revere, MA.",
+        "Plantilla boutique de flores y regalos lista para personalizar localmente.",
       reach: "Contáctanos",
       payments: "Pagos",
       callPrefix: "Llama al",

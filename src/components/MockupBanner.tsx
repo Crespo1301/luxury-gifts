@@ -3,9 +3,6 @@
 import { useT } from "@/i18n/LanguageProvider";
 import { Icon } from "./Icon";
 
-const CELL = "425-591-5136";
-const CELL_RAW = "4255915136";
-
 export default function MockupBanner() {
   const { t } = useT();
   const m = t.mockup;
@@ -27,16 +24,18 @@ export default function MockupBanner() {
             {m.tag}
           </span>
           <p className="text-[12px] sm:text-[13px] leading-snug">
-            <span className="font-medium">{m.message}</span>{" "}
-            <span className="text-white/80">{m.cta}</span>
+            <span className="font-medium">This is a CSolutions template.</span>{" "}
+            <span className="text-white/80">This design and others are available at carloscrespo.info.</span>
           </p>
         </div>
         <a
-          href={`tel:+1${CELL_RAW}`}
+          href="https://carloscrespo.info"
+          target="_blank"
+          rel="noopener noreferrer"
           className="shrink-0 inline-flex items-center gap-2 rounded-full bg-white text-ink-900 hover:bg-gold-300 transition-colors px-3.5 py-1.5 text-[12px] sm:text-[13px] font-semibold cursor-pointer"
         >
-          <Icon name="phone" size={13} />
-          {m.callPrefix} {CELL}
+          <Icon name="sparkle" size={13} />
+          Reach Out
         </a>
       </div>
     </div>

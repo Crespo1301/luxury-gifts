@@ -18,18 +18,18 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Luxury Gifts Boston | Hand-Crafted Florals & Gift Boxes",
+  title: "Luxury Gifts Template | Hand-Crafted Florals & Gift Boxes",
   description:
-    "Boston's boutique studio for luxury florals, eternal roses, gift boxes, and event-specific gifting. Hand-built to order, delivered across Boston and surrounding areas.",
+    "Reusable luxury gifting template for florals, curated boxes, and event-ready presentation.",
   openGraph: {
-    title: "Luxury Gifts Boston",
+    title: "Luxury Gifts Template",
     description:
-      "Hand-crafted florals, eternal roses, and curated gift boxes. A perfect detail for every moment.",
+      "Reusable florals and gifting template with premium presentation and bilingual support.",
     type: "website",
     locale: "en_US",
   },
   icons: {
-    icon: "/images/luxury-gifts-logo-removebg-preview.png",
+    icon: "/images/template-placeholder.svg",
   },
 };
 

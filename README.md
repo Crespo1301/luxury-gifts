@@ -1,104 +1,53 @@
-# 144 Academy — California CCW Certification
+# Luxury Gifts Template
 
-Marketing site for Luxury Gifts Boston - 
+Reusable proposal template for a flower, gift-basket, and event-gifting business.
 
-Built by [CSolutions](https://carloscrespo.info) as a lead-stage proposal.
+## Role In The Business
+
+- This repo is a proposal or mockup asset, not a current production client site.
+- It exists to make the lead-demo process cheaper and more repeatable.
+- Replace any lead-specific content before reusing it with another prospect.
+
+## Shared Docs
+
+- `CLAUDE.md`
+- `AI-WORKFLOW.md`
+- `SECURITY-CHECKLIST.md`
 
 ## Stack
 
-- Next.js 15 (App Router)
+- Next.js 16
 - React 19
 - Tailwind CSS 4
 - TypeScript
-- Deployed on Vercel
 
-## Local development
+## Local Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open http://localhost:3000.
-
-## Build
+Useful build commands:
 
 ```bash
 npm run build
 npm run start
 ```
 
-## Deployment
+## Main Editing Surfaces
 
-Push to `main` and connect the repo to a Vercel project. No environment variables required for the current build.
+- `src/app/` for page structure
+- `src/components/` for sections
+- `src/data/site.ts` for placeholder copy, contact details, pricing, and offer structure
+- `public/` for approved client imagery only after customization
 
-## Project layout
+## Working Rules
 
-```
-src/
-  app/
-    layout.tsx      # root layout, fonts, metadata
-    page.tsx        # landing page composition
-    globals.css     # Tailwind 4 + design tokens
-  components/       # section components
-  data/site.ts      # editable copy, courses, contact
-public/images/      
-```
+- Keep this repo clearly marked as a proposal build.
+- Use it to test a premium feminine product direction without overinvesting tokens.
+- Keep the repo free of real lead details, temporary contacts, and prospect-specific media until it is customized for a real pitch.
 
-## Updating content
+## Security Notes
 
-All copy lives in `src/data/site.ts` — phone, email, course pricing, and the advanced training list. Update there and the page reflects the changes.
-
-
-# Luxury Gifts and Flowers Shop
-
-_____
-
-
-## Goals - send the lead a quick one page mockup of a possible website.
-
-### Client Information 
-**Business Information**
-Flowers - Gift Baskets - Event Specific Gifting - Event Decoration
-
-Name: Luxury Gifts Boston
-
-**Pricing**
-Found In Catalogs
-
-**Contact Info**
-Email:
-Phone: 
-
-**Additional Info**
-Location : Boston and Surrounding areas. 
-
-### Website Purpose
-
-**Single Page**
-I will send the client a high end - well design single page that will work for people to reach out. This site will work as a place for quick links and images for potential customers of our clients gift arrangements. 
-
-### Brand Direction
-
-Soft feminine branding with golden accents. Aimed to showcase various rotating and consistent products. Our look is soft and girly - but premium quality. 
-
-
-**Colors**
-
-None Specific - use soft pink tone with gold accents
-
-## Upsellinng - 
-
-### Extra Services - 
-
-**Hosting**
-We will ask the lead if they would like we hosting with monthly updates they can sign up
-
-**Standard Site**
-If the lead likes the site they can request a 5 page website. 
-
-**Premium Website**
-Lead may request a premium site with working contact forms and scheduling services. 
-
-**SIde Services** 
-Lead may request forms and a full ecommerce - which we will cross if requested. 
+Run `SECURITY-CHECKLIST.md` before demos or deploys. For proposal repos, stale lead data and copied form wiring are the first things to review.

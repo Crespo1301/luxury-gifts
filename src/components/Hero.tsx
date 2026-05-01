@@ -69,8 +69,8 @@ export default function Hero() {
               style={{ boxShadow: "0 50px 80px -40px rgba(174, 84, 70, 0.45)" }}
             >
               <Image
-                src="/images/flower-bouqets/rose-1.jpg"
-                alt="Hand-tied luxury rose arrangement"
+                src="/images/template-placeholder.svg"
+                alt="Template product placeholder"
                 fill
                 priority
                 sizes="(max-width: 1024px) 90vw, 28rem"
@@ -99,8 +99,8 @@ export default function Hero() {
               style={{ animation: "float 8s ease-in-out infinite" }}
             >
               <Image
-                src="/images/gift baskets/gift-basket-1.jpg"
-                alt="Curated gift basket detail"
+                src="/images/template-placeholder.svg"
+                alt="Template detail placeholder"
                 fill
                 sizes="128px"
                 className="object-cover"
@@ -112,8 +112,8 @@ export default function Hero() {
               style={{ animation: "float 10s ease-in-out infinite", animationDelay: "1.2s" }}
             >
               <Image
-                src="/images/gift baskets/gift-basket-2.jpg"
-                alt="Hand-styled luxury gift box"
+                src="/images/template-placeholder.svg"
+                alt="Template gift placeholder"
                 fill
                 sizes="144px"
                 className="object-cover"

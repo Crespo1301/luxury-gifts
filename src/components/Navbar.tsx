@@ -49,7 +49,7 @@ export default function Navbar() {
         >
           <span className="relative flex h-9 w-9 items-center justify-center overflow-hidden rounded-full bg-white/80 ring-1 ring-gold-400/40">
             <Image
-              src="/images/luxury-gifts-logo-removebg-preview.png"
+              src="/images/template-placeholder.svg"
               alt=""
               width={36}
               height={36}
@@ -59,10 +59,10 @@ export default function Navbar() {
           </span>
           <span className="hidden sm:flex flex-col leading-none">
             <span className="font-display text-[1.05rem] font-semibold tracking-tight text-ink-900">
-              Luxury Gifts
+              Luxury Gifts Template
             </span>
             <span className="text-[10px] uppercase tracking-[0.28em] text-gold-600">
-              Boston
+              Placeholder Brand
             </span>
           </span>
         </Link>
