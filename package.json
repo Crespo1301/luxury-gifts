@@ -1,7 +1,7 @@
 {
   "name": "luxury-gifts",
   "version": "1.0.0",
-  "description": "Marketing site for 144 Academy: California CCW certification, renewals, and advanced firearms training out of Redding, Shasta County.",
+  "description": "Reusable luxury gifting template for florals, curated gift boxes, and event-ready presentations.",
   "main": "index.js",
   "directories": {
     "doc": "docs"

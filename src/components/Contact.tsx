@@ -10,8 +10,8 @@ export default function Contact() {
   return (
     <section id="contact" className="relative py-20 sm:py-24">
       <div className="mx-auto max-w-6xl px-5 sm:px-6">
-        <div className="grid gap-10 lg:grid-cols-[1fr_1fr] items-stretch">
-          <div className="glass rounded-[32px] p-8 sm:p-12 flex flex-col justify-between">
+        <div className="grid items-stretch gap-10 lg:grid-cols-[1fr_1fr]">
+          <div className="glass flex flex-col justify-between rounded-[32px] p-8 text-center sm:p-12 lg:text-left">
             <div>
               <span className="eyebrow">{t.contact.eyebrow}</span>
               <h2 className="section-title mt-4">
@@ -43,8 +43,8 @@ export default function Contact() {
           </div>
 
           <div className="grid gap-5">
-            <div className="glass-warm rounded-3xl p-7">
-              <div className="flex items-center gap-3">
+            <div className="glass-warm rounded-3xl p-7 text-center lg:text-left">
+              <div className="flex items-center justify-center gap-3 lg:justify-start">
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-rose-100 text-rose-500">
                   <Icon name="pin" size={18} />
                 </div>
@@ -53,8 +53,8 @@ export default function Contact() {
               <p className="mt-3 text-sm text-ink-700 leading-relaxed">{t.contact.serviceBody}</p>
             </div>
 
-            <div className="glass-warm rounded-3xl p-7">
-              <div className="flex items-center gap-3">
+            <div className="glass-warm rounded-3xl p-7 text-center lg:text-left">
+              <div className="flex items-center justify-center gap-3 lg:justify-start">
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gold-300/40 text-gold-600">
                   <Icon name="check" size={18} />
                 </div>

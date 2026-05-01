@@ -10,8 +10,8 @@ export default function Process() {
   return (
     <section id="process" className="relative py-20 sm:py-24">
       <div className="mx-auto max-w-6xl px-5 sm:px-6">
-        <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] items-start">
-          <div className="lg:sticky lg:top-32">
+        <div className="grid items-start gap-12 lg:grid-cols-[0.9fr_1.1fr]">
+          <div className="text-center lg:sticky lg:top-32 lg:text-left">
             <span className="eyebrow">{t.process.eyebrow}</span>
             <h2 className="section-title mt-4">
               {t.process.titleA} <span className="italic text-rose-500">{t.process.titleB}</span>

@@ -17,8 +17,8 @@ export default function MockupBanner() {
           "linear-gradient(90deg, #2e2520 0%, #4a3b34 35%, #8a6a36 75%, #b08948 100%)",
       }}
     >
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 py-2 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 sm:gap-4">
-        <div className="flex items-center gap-3 min-w-0">
+      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-4 py-2 text-center sm:flex-row sm:items-center sm:gap-4 sm:px-6 sm:text-left">
+        <div className="flex min-w-0 items-center justify-center gap-3 sm:justify-start">
           <span className="hidden sm:inline-flex items-center gap-1.5 rounded-full bg-white/15 px-2.5 py-1 text-[10px] uppercase tracking-[0.22em] font-semibold text-white border border-white/25">
             <Icon name="sparkle" size={11} className="text-gold-300" />
             {m.tag}
@@ -32,7 +32,7 @@ export default function MockupBanner() {
           href="https://carloscrespo.info"
           target="_blank"
           rel="noopener noreferrer"
-          className="shrink-0 inline-flex items-center gap-2 rounded-full bg-white text-ink-900 hover:bg-gold-300 transition-colors px-3.5 py-1.5 text-[12px] sm:text-[13px] font-semibold cursor-pointer"
+          className="inline-flex shrink-0 items-center gap-2 rounded-full bg-white px-3.5 py-1.5 text-[12px] font-semibold text-ink-900 transition-colors hover:bg-gold-300 sm:text-[13px] cursor-pointer"
         >
           <Icon name="sparkle" size={13} />
           Reach Out

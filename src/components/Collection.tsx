@@ -22,7 +22,7 @@ export default function Collection() {
   return (
     <section id="collection" className="relative py-20 sm:py-24">
       <div className="mx-auto max-w-6xl px-5 sm:px-6">
-        <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6">
+        <div className="flex flex-col items-center gap-6 text-center sm:flex-row sm:items-end sm:justify-between sm:text-left">
           <div className="max-w-xl">
             <span className="eyebrow">{t.collection.eyebrow}</span>
             <h2 className="section-title mt-4">

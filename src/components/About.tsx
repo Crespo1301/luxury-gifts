@@ -15,7 +15,7 @@ export default function About() {
           <div className="pointer-events-none absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-gold-300/30 blur-3xl" />
 
           <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] items-center relative">
-            <div>
+            <div className="text-center lg:text-left">
               <span className="eyebrow">{t.about.eyebrow}</span>
               <h2 className="section-title mt-4">
                 {t.about.titleA} <span className="italic text-rose-500">{t.about.titleB}</span>
@@ -23,7 +23,7 @@ export default function About() {
               <p className="mt-5 text-ink-700 leading-relaxed">{t.about.body1}</p>
               <p className="mt-4 text-ink-700 leading-relaxed">{t.about.body2}</p>
 
-              <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 gap-3">
+              <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3">
                 {t.about.tags.map((tag) => (
                   <div
                     key={tag}
@@ -48,7 +48,7 @@ export default function About() {
                   className="object-cover"
                 />
               </div>
-              <div className="absolute -bottom-6 -left-4 sm:-left-8 glass rounded-2xl p-4 max-w-[14rem]">
+              <div className="absolute -bottom-6 left-1/2 max-w-[14rem] -translate-x-1/2 glass rounded-2xl p-4 sm:-left-8 sm:translate-x-0">
                 <div className="flex items-center gap-2">
                   <Icon name="pin" size={16} className="text-rose-500" />
                   <span className="text-xs uppercase tracking-[0.2em] text-gold-600">

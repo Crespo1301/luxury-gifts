@@ -57,7 +57,7 @@ export default function Navbar() {
               priority
             />
           </span>
-          <span className="hidden sm:flex flex-col leading-none">
+          <span className="hidden min-[430px]:flex flex-col leading-none">
             <span className="font-display text-[1.05rem] font-semibold tracking-tight text-ink-900">
               Luxury Gifts Template
             </span>
@@ -94,10 +94,11 @@ export default function Navbar() {
             href={site.whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden sm:inline-flex btn-primary text-[0.78rem] py-2.5 px-4"
+            className="inline-flex btn-primary px-3.5 py-2.5 text-[0.72rem] sm:px-4 sm:text-[0.78rem]"
           >
             <Icon name="whatsapp" size={15} />
-            {t.nav.orderWhatsApp}
+            <span className="hidden sm:inline">{t.nav.orderWhatsApp}</span>
+            <span className="sm:hidden">WhatsApp</span>
           </a>
 
           <button
@@ -120,13 +121,13 @@ export default function Navbar() {
         }`}
         style={{ background: "rgba(253, 246, 243, 0.96)", backdropFilter: "blur(18px)" }}
       >
-        <div className="flex flex-col h-full pt-24 px-7 gap-1.5 overflow-y-auto">
+        <div className="flex h-full flex-col gap-1.5 overflow-y-auto px-7 pt-24 text-center">
           {links.map((l, i) => (
             <a
               key={l.href}
               href={l.href}
               onClick={() => setOpen(false)}
-              className="block py-4 border-b border-rose-200/60 font-display text-3xl text-ink-900"
+              className="block border-b border-rose-200/60 py-4 font-display text-3xl text-ink-900"
               style={{
                 animation: open ? `fadeUp 0.5s ${0.05 * i + 0.1}s both` : "none",
               }}
@@ -140,7 +141,7 @@ export default function Navbar() {
             onClick={() => {
               toggle();
             }}
-            className="mt-6 self-start inline-flex items-center gap-2 rounded-full bg-white/80 border border-gold-400/40 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-ink-800 cursor-pointer"
+            className="mt-6 inline-flex self-center items-center gap-2 rounded-full border border-gold-400/40 bg-white/80 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-ink-800 cursor-pointer"
           >
             <Icon name="globe" size={14} className="text-gold-600" />
             {t.nav.langSwitch}
@@ -151,7 +152,7 @@ export default function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setOpen(false)}
-            className="btn-primary mt-3 self-start"
+            className="btn-primary mt-3 self-center"
           >
             <Icon name="whatsapp" size={16} />
             {t.nav.orderWhatsApp}
@@ -159,7 +160,7 @@ export default function Navbar() {
           <a
             href={`tel:+1${site.phoneRaw}`}
             onClick={() => setOpen(false)}
-            className="btn-ghost mt-3 self-start"
+            className="btn-ghost mt-3 self-center"
           >
             <Icon name="phone" size={15} />
             {site.phone}
