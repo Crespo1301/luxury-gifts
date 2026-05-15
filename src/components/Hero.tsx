@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { ConceptWatermark } from "./ConceptWatermark";
 import { Icon } from "./Icon";
 import { site } from "@/data/site";
 import { useT } from "@/i18n/LanguageProvider";
@@ -73,6 +74,7 @@ export default function Hero() {
                 sizes="(max-width: 1024px) 90vw, 28rem"
                 className="object-cover"
               />
+              <ConceptWatermark />
               <div
                 className="absolute inset-0"
                 style={{
@@ -80,7 +82,7 @@ export default function Hero() {
                     "linear-gradient(180deg, rgba(26,19,16,0) 55%, rgba(26,19,16,0.45) 100%)",
                 }}
               />
-              <div className="absolute bottom-5 left-5 right-5 flex items-end justify-between gap-3">
+              <div className="absolute bottom-5 left-5 right-5 z-20 flex items-end justify-between gap-3">
                 <div className="text-white">
                   <div className="text-[10px] tracking-[0.3em] uppercase opacity-90">{t.hero.cardLabel}</div>
                   <div className="font-display text-xl leading-tight">{t.hero.cardName}</div>
@@ -102,6 +104,7 @@ export default function Hero() {
                 sizes="128px"
                 className="object-cover"
               />
+              <ConceptWatermark compact />
             </div>
 
             <div
@@ -115,6 +118,7 @@ export default function Hero() {
                 sizes="144px"
                 className="object-cover"
               />
+              <ConceptWatermark compact />
             </div>
 
             <div className="hidden md:flex absolute top-1/2 -right-16 -translate-y-1/2 glass rounded-2xl px-4 py-3 items-center gap-3">

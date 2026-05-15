@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { ConceptWatermark } from "./ConceptWatermark";
 import { Icon } from "./Icon";
 import { useT } from "@/i18n/LanguageProvider";
 
@@ -47,6 +48,7 @@ export default function About() {
                   sizes="(max-width: 1024px) 90vw, 22rem"
                   className="object-cover"
                 />
+                <ConceptWatermark />
               </div>
               <div className="absolute -bottom-6 left-1/2 max-w-[14rem] -translate-x-1/2 glass rounded-2xl p-4 sm:-left-8 sm:translate-x-0">
                 <div className="flex items-center gap-2">

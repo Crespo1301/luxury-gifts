@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { ConceptWatermark } from "./ConceptWatermark";
 import { Icon } from "./Icon";
 import { products, site, type CategoryKey } from "@/data/site";
 import { useT } from "@/i18n/LanguageProvider";
@@ -64,13 +65,16 @@ export default function Collection() {
                   )}`}
                 >
                   {item.image ? (
-                    <Image
-                      src={item.image}
-                      alt={copy.name}
-                      fill
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      className="object-cover transition-transform duration-700 hover:scale-[1.04]"
-                    />
+                    <>
+                      <Image
+                        src={item.image}
+                        alt={copy.name}
+                        fill
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        className="object-cover transition-transform duration-700 hover:scale-[1.04]"
+                      />
+                      <ConceptWatermark />
+                    </>
                   ) : (
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="text-center px-6">
@@ -82,11 +86,11 @@ export default function Collection() {
                     </div>
                   )}
                   {badge && (
-                    <div className="absolute top-3 left-3 glass-warm text-[10px] uppercase tracking-[0.18em] text-gold-600 font-semibold rounded-full px-3 py-1">
+                    <div className="absolute top-3 left-3 z-20 glass-warm text-[10px] uppercase tracking-[0.18em] text-gold-600 font-semibold rounded-full px-3 py-1">
                       {badge}
                     </div>
                   )}
-                  <div className="absolute top-3 right-3 bg-white/90 backdrop-blur rounded-full px-3 py-1 text-xs font-semibold text-ink-900">
+                  <div className="absolute top-3 right-3 z-20 bg-white/90 backdrop-blur rounded-full px-3 py-1 text-xs font-semibold text-ink-900">
                     ${item.price}
                   </div>
                 </div>
