@@ -66,8 +66,8 @@ export default function Hero() {
               style={{ boxShadow: "0 50px 80px -40px rgba(174, 84, 70, 0.45)" }}
             >
               <Image
-                src="/images/template-placeholder.svg"
-                alt="Template product placeholder"
+                src="/images/generated/floral-gifting-hero.png"
+                alt="Generated concept image of boutique bouquets and gift baskets on a studio table"
                 fill
                 priority
                 sizes="(max-width: 1024px) 90vw, 28rem"
@@ -96,8 +96,8 @@ export default function Hero() {
               style={{ animation: "float 8s ease-in-out infinite" }}
             >
               <Image
-                src="/images/template-placeholder.svg"
-                alt="Template detail placeholder"
+                src="/images/generated/luxury-rose-bouquet.png"
+                alt="Generated concept image of a blush and burgundy rose bouquet"
                 fill
                 sizes="128px"
                 className="object-cover"
@@ -109,8 +109,8 @@ export default function Hero() {
               style={{ animation: "float 10s ease-in-out infinite", animationDelay: "1.2s" }}
             >
               <Image
-                src="/images/template-placeholder.svg"
-                alt="Template gift placeholder"
+                src="/images/generated/holiday-gift-basket.png"
+                alt="Generated concept image of a holiday gift basket with candles and chocolates"
                 fill
                 sizes="144px"
                 className="object-cover"

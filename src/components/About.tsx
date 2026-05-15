@@ -41,8 +41,8 @@ export default function About() {
                 style={{ boxShadow: "0 40px 70px -35px rgba(174, 84, 70, 0.4)" }}
               >
                 <Image
-                  src="/images/template-placeholder.svg"
-                  alt="Studio placeholder"
+                  src="/images/generated/birthday-pastel-bouquet.png"
+                  alt="Generated concept image of a birthday bouquet and gift box"
                   fill
                   sizes="(max-width: 1024px) 90vw, 22rem"
                   className="object-cover"

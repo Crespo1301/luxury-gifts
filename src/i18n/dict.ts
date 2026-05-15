@@ -69,7 +69,7 @@ export const dict = {
       catalogCta: "View full catalog",
       handBuilt: "Hand-built to order",
       orderCta: "Order",
-      footnote: "Designs may vary slightly based on flower availability. Shipping is additional.",
+      footnote: "Concept images are AI-generated for template presentation. Real products, pricing, and availability can be customized for the business.",
       categoryNames: {
         Roses: "Roses",
         "Eternal Roses": "Eternal Roses",
@@ -82,42 +82,42 @@ export const dict = {
     },
     products: {
       "heart-box-large": {
-        name: "Heart Box, Large",
+        name: "Luxury Rose Bouquet",
         badge: "Signature",
-        includes: ["Large natural roses", "Personalized ribbon", "Signature heart presentation"],
+        includes: ["Blush and burgundy roses", "Soft pink wrapping", "Personalized tag and ribbon"],
       },
       "heart-box-baileys": {
-        name: "Heart Box with Baileys",
-        includes: ["Medium natural roses", "Baileys mini bottle", "Hand-tied heart box"],
+        name: "Holiday Gift Basket",
+        includes: ["Candles and seasonal treats", "Chocolate assortment", "Velvet ribbon presentation"],
       },
       "hydrangeas-box": {
-        name: "Hydrangeas Box",
-        includes: ["Hydrangeas with roses", "Crown detail", "Personalized ribbon", "Love card"],
+        name: "Romantic Red Rose Arrangement",
+        includes: ["Deep red roses", "Eucalyptus and baby's breath", "Keepsake love card"],
       },
       "box-in-love": {
-        name: "Box In Love",
-        includes: ["Roses", "Chocolate-dipped strawberries", "Ferrero Rocher", "Love card"],
+        name: "Birthday Pastel Bouquet",
+        includes: ["Pastel roses and cream blooms", "Round gift box styling", "Birthday card presentation"],
       },
       "box-baileys": {
-        name: "Box Baileys",
-        includes: ["Roses", "Baileys mini bottle", "Chocolates", "Love card"],
+        name: "Custom Floral Gift Set",
+        includes: ["Fresh bouquet centerpiece", "Gift basket pairing", "Made for birthdays, romance, or thank-you moments"],
       },
       "premium-breakfast": {
-        name: "Premium Breakfast",
+        name: "Winter Candle Basket",
         badge: "Most Loved",
-        includes: ["Abundant fresh flowers", "Gourmet breakfast spread", "Prosecco Rosé", "Elegant presentation"],
+        includes: ["Premium candles", "Fine chocolates", "Holiday-ready basket styling"],
       },
       "roses-cylinder-breakfast": {
-        name: "Roses Cylinder Breakfast",
-        includes: ["Decorated wooden tray", "Slice of cake, wrap, croissant", "Yogurt and granola parfait", "Floral arrangement"],
+        name: "Blush Signature Wrap",
+        includes: ["Fresh roses and gerbera accents", "Soft blush wrap", "Ribboned handheld presentation"],
       },
       "eternal-i-love-you": {
-        name: "Eternal I Love You",
-        includes: ["Preserved roses that last for years", "Curated chocolates", "Hand-written love card"],
+        name: "Red Rose Love Box",
+        includes: ["Classic red roses", "Black keepsake box", "Romantic card styling"],
       },
       "magnetic-gift-box": {
-        name: "Magnetic Gift Box",
-        includes: ["Cotton gift item", "Dried fruit selection", "Premium chocolates"],
+        name: "Birthday Keepsake Box",
+        includes: ["Floral bouquet pairing", "Small luxury add-ons", "Personalized birthday note"],
       },
     },
     process: {
@@ -258,7 +258,7 @@ export const dict = {
       catalogCta: "Ver catálogo completo",
       handBuilt: "Hecho a mano por pedido",
       orderCta: "Ordenar",
-      footnote: "Los diseños pueden variar según la disponibilidad de flores. El envío es adicional.",
+      footnote: "Las imágenes conceptuales son generadas con IA para presentar la plantilla. Los productos, precios y disponibilidad reales se pueden personalizar.",
       categoryNames: {
         Roses: "Rosas",
         "Eternal Roses": "Rosas Eternas",
@@ -271,42 +271,42 @@ export const dict = {
     },
     products: {
       "heart-box-large": {
-        name: "Caja Corazón, Grande",
+        name: "Bouquet de Rosas de Lujo",
         badge: "Firma",
-        includes: ["Rosas naturales tamaño grande", "Listón personalizado", "Presentación corazón firma"],
+        includes: ["Rosas blush y borgoña", "Envoltura rosada suave", "Tarjeta y listón personalizado"],
       },
       "heart-box-baileys": {
-        name: "Caja Corazón con Baileys",
-        includes: ["Rosas naturales tamaño mediano", "Mini botella de Baileys", "Caja corazón hecha a mano"],
+        name: "Canasta de Regalo Festiva",
+        includes: ["Velas y detalles de temporada", "Selección de chocolates", "Presentación con listón de terciopelo"],
       },
       "hydrangeas-box": {
-        name: "Caja de Hortensias",
-        includes: ["Hortensias con rosas", "Detalle de corona", "Listón personalizado", "Tarjeta de amor"],
+        name: "Arreglo Romántico de Rosas Rojas",
+        includes: ["Rosas rojas intensas", "Eucalipto y baby's breath", "Tarjeta de amor de recuerdo"],
       },
       "box-in-love": {
-        name: "Caja In Love",
-        includes: ["Rosas", "Fresas con chocolate", "Ferrero Rocher", "Tarjeta de amor"],
+        name: "Bouquet Pastel de Cumpleaños",
+        includes: ["Rosas pastel y flores crema", "Estilo de caja redonda", "Tarjeta de cumpleaños"],
       },
       "box-baileys": {
-        name: "Caja Baileys",
-        includes: ["Rosas", "Mini botella de Baileys", "Chocolates", "Tarjeta de amor"],
+        name: "Set Floral Personalizado",
+        includes: ["Bouquet fresco principal", "Canasta de regalo combinada", "Para cumpleaños, romance o agradecimientos"],
       },
       "premium-breakfast": {
-        name: "Desayuno Premium",
+        name: "Canasta de Velas de Invierno",
         badge: "Más amado",
-        includes: ["Abundantes flores frescas", "Desayuno gourmet completo", "Prosecco Rosé", "Presentación elegante"],
+        includes: ["Velas premium", "Chocolates finos", "Estilo festivo listo para regalar"],
       },
       "roses-cylinder-breakfast": {
-        name: "Desayuno Cilindro de Rosas",
-        includes: ["Bandeja de madera decorada", "Trozo de pastel, wrap, croissant", "Parfait de yogur y granola", "Arreglo floral"],
+        name: "Ramo Firma Blush",
+        includes: ["Rosas frescas y detalles de gerbera", "Envoltura blush suave", "Presentación con listón"],
       },
       "eternal-i-love-you": {
-        name: "Caja Eterna I Love You",
-        includes: ["Rosas preservadas que duran años", "Chocolates curados", "Tarjeta de amor escrita a mano"],
+        name: "Caja de Rosas Rojas",
+        includes: ["Rosas rojas clásicas", "Caja negra de recuerdo", "Estilo romántico con tarjeta"],
       },
       "magnetic-gift-box": {
-        name: "Caja Magnética",
-        includes: ["Detalle de algodón", "Selección de frutos secos", "Chocolates premium"],
+        name: "Caja Recuerdo de Cumpleaños",
+        includes: ["Bouquet floral combinado", "Pequeños detalles de lujo", "Nota de cumpleaños personalizada"],
       },
     },
     process: {
