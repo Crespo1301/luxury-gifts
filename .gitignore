@@ -7,3 +7,6 @@ node_modules/
 .agents/
 .claude/
 .code-review-graph/
+
+# Local browser QA screenshots
+.visual-checks/
