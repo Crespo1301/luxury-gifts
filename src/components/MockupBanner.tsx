@@ -1,7 +1,6 @@
 "use client";
 
 import { useT } from "@/i18n/LanguageProvider";
-import { Icon } from "./Icon";
 
 export default function MockupBanner() {
   const { t } = useT();

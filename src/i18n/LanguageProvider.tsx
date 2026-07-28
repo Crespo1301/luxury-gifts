@@ -15,21 +15,19 @@ const LanguageContext = createContext<Ctx | null>(null);
 const STORAGE_KEY = "lgb-lang";
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [lang, setLangState] = useState<Lang>("en");
-
-  useEffect(() => {
+  const [lang, setLangState] = useState<Lang>(() => {
     try {
       const stored = window.localStorage.getItem(STORAGE_KEY) as Lang | null;
       if (stored === "en" || stored === "es") {
-        setLangState(stored);
-        return;
+        return stored;
       }
       const browser = navigator.language?.toLowerCase() ?? "";
-      if (browser.startsWith("es")) setLangState("es");
+      if (browser.startsWith("es")) return "es";
     } catch {
       // ignore storage errors
     }
-  }, []);
+    return "en";
+  });
 
   useEffect(() => {
     document.documentElement.lang = lang;

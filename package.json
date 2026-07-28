@@ -11,7 +11,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint",
     "stitch:init": "npx -y @_davideast/stitch-mcp init",
     "stitch:doctor": "bash ./scripts/stitch-doctor.sh",
     "stitch:proxy": "bash ./scripts/stitch-proxy.sh"
@@ -20,7 +20,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "next": "^16.2.4",
+    "next": "16.2.12",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
   },
@@ -28,8 +28,14 @@
     "@tailwindcss/postcss": "^4.2.4",
     "@types/node": "25.6.0",
     "@types/react": "19.2.14",
-    "postcss": "^8.5.11",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.2.12",
+    "postcss": "8.5.24",
     "tailwindcss": "^4.2.4",
     "typescript": "6.0.3"
+  },
+  "overrides": {
+    "postcss": "8.5.24",
+    "sharp": "0.35.3"
   }
 }
