@@ -34,7 +34,7 @@ export const dict = {
       ratingSub: "across your service area",
     },
     trust: [
-      { stat: "500+", label: "Arrangements delivered" },
+      { stat: "Custom", label: "Made-to-order template" },
       { stat: "Local", label: "Service area placeholder" },
       { stat: "100%", label: "Hand-built to order" },
     ],
@@ -44,7 +44,7 @@ export const dict = {
       "Curated gift boxes",
       "Breakfast surprises",
       "Event styling",
-      "Same-day pickup option",
+      "Pickup timing by confirmation",
       "Delivery placeholder",
       "Personalized cards",
     ],
@@ -125,7 +125,7 @@ export const dict = {
       titleA: "From your message to her doorstep, in",
       titleB: "four steps.",
       body:
-        "Most orders are confirmed the same day. We hand-build, dress, and deliver every piece ourselves so the moment lands exactly the way you imagined it.",
+        "Order timing, pickup, and delivery are confirmed directly with the business before payment.",
       cta: "Start your order",
       steps: [
         { step: "01", title: "Choose your favorites", body: "Browse the catalog and pick the arrangements that feel right for the moment." },
@@ -143,7 +143,7 @@ export const dict = {
       body2:
         "We work with fresh stems, preserved roses, gourmet add-ons, and styled presentation that feels considered from the box to the ribbon. The result is something worth photographing before it's ever opened.",
       tags: [
-        "Same-day pickup",
+        "Pickup by confirmation",
         "Delivery zone placeholder",
         "Custom requests",
         "Personalized cards",
@@ -223,7 +223,7 @@ export const dict = {
       ratingSub: "en tu área de servicio",
     },
     trust: [
-      { stat: "500+", label: "Arreglos entregados" },
+      { stat: "Personalizado", label: "Plantilla hecha por pedido" },
       { stat: "Local", label: "Área de servicio de muestra" },
       { stat: "100%", label: "Hecho a mano por pedido" },
     ],
@@ -233,7 +233,7 @@ export const dict = {
       "Cajas de regalo curadas",
       "Desayunos sorpresa",
       "Decoración de eventos",
-      "Recogida el mismo día disponible",
+      "Horario de recogida por confirmar",
       "Entrega de muestra",
       "Tarjetas personalizadas",
     ],
@@ -314,7 +314,7 @@ export const dict = {
       titleA: "De tu mensaje a su puerta, en",
       titleB: "cuatro pasos.",
       body:
-        "La mayoría de los pedidos se confirman el mismo día. Hacemos, montamos y entregamos cada pieza nosotros mismos para que el momento sea exactamente como lo imaginaste.",
+        "El horario del pedido, la recogida y la entrega se confirman directamente con el negocio antes del pago.",
       cta: "Iniciar tu pedido",
       steps: [
         { step: "01", title: "Escoge tus favoritos", body: "Explora el catálogo y elige los arreglos perfectos para el momento." },
@@ -332,7 +332,7 @@ export const dict = {
       body2:
         "Trabajamos con flores frescas, rosas preservadas, complementos gourmet y una presentación cuidada desde la caja hasta el listón. El resultado es algo digno de fotografiar antes de abrirlo.",
       tags: [
-        "Recogida el mismo día",
+        "Recogida por confirmar",
         "Área de entrega de muestra",
         "Pedidos personalizados",
         "Tarjetas personalizadas",
